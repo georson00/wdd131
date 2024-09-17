@@ -1,0 +1,20 @@
+body {
+    display: grid;
+}
+
+nav {
+    margin: 0 auto 2rem;
+    max-width: 90vw;
+}
+
+.modern a {
+    flex: 1 1 110%;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    background-color: blueviolet;
+    align-items: center;
+
+}

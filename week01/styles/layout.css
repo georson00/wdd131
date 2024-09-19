@@ -45,7 +45,7 @@ header {
 .navigation a:hover {
 	font-weight: 700;
 	text-decoration: underline;
-	text-decoration-color: yellow;
+	text-decoration-color: rgb(43, 43, 24);
 }
 
 .wrap {

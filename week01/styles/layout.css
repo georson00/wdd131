@@ -1,7 +1,12 @@
 body {
     display: grid;
+    height: 100vh;
 }
-
+header {
+    background: lightseagreen;
+    padding: 2rem;
+    grid-column: 1/4;
+}
 nav {
     margin: 0 auto 2rem;
     max-width: 90vw;
@@ -28,4 +33,18 @@ nav {
 	text-decoration: none;
 	text-align: center;
 /* 	border: 1px dotted cyan; */
+}
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.wrap {
+		flex-wrap: wrap;
+}
+
+p {
+	text-align: center;
+	font-size: smaller;
 }

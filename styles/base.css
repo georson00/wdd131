@@ -1,0 +1,155 @@
+
+*{
+    padding: 10px;
+    margin: 10px;
+}
+body {
+    display: grid;
+    height: 100%;
+    grid-template: auto 1fr auto / auto 1fr auto;
+
+}
+header {
+    background: #0F67B1;
+    grid-column: 1/6;
+    padding: 1rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+nav{
+    background-color: #0a100c;
+    grid-column: 1/span 4;
+    margin-top: -20px;
+    height: 40px;
+    
+    
+}
+.navbar {
+	display: flex;
+    list-style: none;
+    margin-top: -20px;
+    
+    
+
+
+
+}
+
+.navbar li {
+	flex: 1 1 auto; 
+    
+}
+.navbar a {
+	color: #3FA2F6;
+	text-decoration: none;
+	text-align: center;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+main{
+    position: relative;
+    grid-row: 6;
+    margin-top: 5px;
+}
+.about-me-h2, .h2-card2{
+    background: #0F67B1;
+    color: white;
+    position: relative;
+    margin-top: .5px;
+    border-radius: 5px 5px 0 0 ;
+    padding: 20px;
+    margin: -10px;
+    text-align: center;
+}
+.leogane{
+    text-align: center;
+}
+.about-me-paragraph{
+    grid-column: 1/5;
+    margin: 20px;
+}
+.haiti-paragraph{
+    grid-column: 2/6;
+    text-align: right;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:2px;
+    line-height:1.5em;
+    font-size:large;
+}
+section{
+    
+    border: solid lightslategray;
+    border-width: 1px;
+    border-radius: 5px;
+
+}
+.about-me-h2{
+    grid-column: 1/6;
+}
+.profile-pic {
+    width: 200px;
+    height: 300px;
+    grid-column: 5/6;
+    object-fit: cover;
+    object-position: center;
+}
+.haiti-flag{
+    width: 300px;
+    height: 200px;
+    grid-column: 1/2;
+    object-fit: cover;
+    object-position: center;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between cards */
+    
+}
+.card{
+    display: grid;
+    grid-column:2/5;
+
+}
+.card2{
+    grid-column: 5/7;
+
+}
+
+.ressources-link {
+    list-style: none;
+    line-height: 50px;
+    
+    
+}
+.ressources-link a{
+    color: chocolate;
+    text-decoration: none;
+    font-size: large;
+}
+.ressources-link a:hover{
+    font-size: larger;
+    background: #0F67B1 ;
+    color: white;
+    
+}
+
+footer{
+    background: #0a100c;
+    grid-row:9;
+    color: azure;
+    text-align: center;
+
+    
+}

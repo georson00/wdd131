@@ -96,7 +96,8 @@ main{
     
 }
 figure{
-    background-color:#F2E5BF;
+   
+    padding: 20px;
 }
 figcaption{
     text-align: center;

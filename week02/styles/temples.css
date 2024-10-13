@@ -1,9 +1,4 @@
-/* My color palette
-1- #257180
-2- #F2E5BF
-3- #FD8B51
-4- #CB6040
-*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -69,7 +64,7 @@ header, main {
 nav{
     display: flex;
     flex-direction: column;
-    /*background-color:#F2E5BF;*/
+   
     
 }
 nav ul{

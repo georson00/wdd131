@@ -11,13 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Temple Picture Album</h1>
-        <nav>
+        <button type='button' id="menu"></button>
+        <nav class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a id="home" href="#">Home</a></li>
                 <li><a href="#">Old</a></li>
                 <li><a href="#">New</a></li>
                 <li><a href="#">Large</a></li>
@@ -25,17 +27,45 @@
             </ul>
         </nav>
     </header>
+    <h2 id="main-heading">Home</h2>
     <main>
-        <h2>Home</h2>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
+        
+        <figure>
+            <img src="images/peru-temple.jpeg" alt="The Arequipa Peru Temple" width="500">
+            <figcaption>Arequipa Peru</figcaption>
+        </figure>
+        <figure>
+            <img src="images/bern-switzerland-temple.jpg" alt="The Bern Switzerland Temple" width="500">
+            <figcaption>Bern Switzerland </figcaption>
+        </figure>
+        <figure>
+            <img src="images/Boise-Idaho-Temple.jpg" alt="The Boise Idaho Temple" width="500">
+            <figcaption>Boise Idaho</figcaption>            
+        </figure>
+        <figure>
+            <img src="images/Port-au-Prince-Haiti-Temple.jpg" alt="The Port-au-Prince Haiti Temple" width="500">
+            <figcaption>Port-au-Prince Haiti</figcaption>            
+        </figure>
+        <figure>
+            <img src="images/salt-lake-temple.jpg" alt="The Salt Lake City Utah Temple" width="500">
+            <figcaption>Salt Lake Utah</figcaption>            
+        </figure>
+        <figure>
+            <img src="images/calgary-alberta-temple.jpg" alt="The Calgary Alberta Temple" width="500">
+            <figcaption>Calgary Alberta</figcaption>            
+        </figure>
+        <figure>
+            <img src="images/Rome-Temple.jpg" alt="The Rome Italy Temple" width="500">
+            <figcaption>Rome Italy</figcaption>            
+        </figure>
+        <figure>
+            <img src="images/santo-domingo-dominican-republic-temple.jpg" alt="The Santo Domingo Dominican Republic Temple" width="500">
+            <figcaption>Santo Domingo Dominican Republic</figcaption>            
+        </figure>
+        <figure>
+            <img src="images/Port-au-Prince-Haiti-Temple.jpg" alt="The Port-au-Prince Haiti Temple" width="500">
+            <figcaption>Port-au-Prince Haiti</figcaption>            
+        </figure>
     </main>
     <footer>
         <p><span id="copyright"></span><span id="currentYear"></span>  ☆ Nelson Georges ☆ Haiti</p>

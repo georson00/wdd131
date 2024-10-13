@@ -1,8 +1,19 @@
-const copyrightSymbole = '&copy;'
+
+
+const copyrightSymbol = '&copy;';
+
+const currentDate = new Date();
 const year = currentDate.getFullYear();
 
-const fullDate = currentDate.getFullDate();
+const day = currentDate.getDate();
+const month = currentDate.getMonth() + 1
+const fullDate = `${month}/${day}/${year}`;
 
-document.getElementById('currentYear').innerHTML =  year;
-document.getElementById('copyright').innerHTML = copyrightSymbole;
-document.getElementById('lastModified').innerHTML = 'Last Modified: '+ fullDate
+const hours = currentDate.getHours()
+const minutes = currentDate.getMinutes()
+const seconds = currentDate.getSeconds()
+const fullTime = `${hours}:${minutes}:${seconds}`
+
+document.querySelector('#currentYear').textContent =  year;
+document.querySelector('#copyright').innerHTML = copyrightSymbol;
+document.querySelector('#lastModified').textContent = `Last Modified: ${fullDate} ${fullTime}`;

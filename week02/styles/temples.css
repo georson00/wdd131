@@ -1,0 +1,124 @@
+/* My color palette
+1- #257180
+2- #F2E5BF
+3- #FD8B51
+4- #CB6040
+*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
+}
+.open a {
+	display: block;
+}
+
+h2{
+    text-align: center;
+    padding: 30px; 
+}
+#menu::before {
+	content: "☰";
+    color: white;
+}
+
+#menu.open::before {
+	content: "X";
+    color: white;
+
+}
+.navigation{
+    display: none;
+}
+.navigation.open{
+    display: block;
+}
+header{
+    display: grid;
+    grid-gap: 1rem;
+    background-color:  #03346E;
+    color: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #333;
+    
+}
+header, main {
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    /*background-color:#F2E5BF;*/
+    
+}
+nav ul{
+    list-style-type: none;
+    
+    
+}
+nav a{
+    display: block;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover{
+    
+    background-color:#000;
+    color:#F2E5BF
+  
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 100px;
+    
+}
+figure{
+    background-color:#F2E5BF;
+}
+figcaption{
+    text-align: center;
+    font-size: smaller;
+    
+    
+}
+img{
+    width: 300px; 
+    height: auto;
+    border: solid #F2E5BF; 
+
+}
+footer{
+    background: #03346E;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+    
+}
+#lastModified{
+    color: yellow;
+    font-size: smaller ;
+}

@@ -1,14 +1,90 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Country Haiti</title>
-    <meta name= 'description' content ="Information and data abou Haiti" >
+    <meta name= 'description' content ="Information and data about Haiti" >
     <meta name='author' content="Nelson Georges">
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
+    <h1>
+        Haiti
+    </h1>
+  
+
+    <div class="hero">
+        <picture>
+            <source srcset="images/beach-large.webp" media="(min-width: 1000px)" alt="A beautiful beach in Haiti">
+            <source srcset="images/beach-small.webp" media="(min-width: 500px)" alt="A beautiful beach in Haiti">
+            <img src="images/beach-small.webp" alt="A beautiful beach in Haiti" width="500" height="889">
+        </picture>
+    </div>
+
+    <div class="data-container" >
+    <h2 id="data-h2">Data</h2>
+   
+    <div class="text">
+        <span class="label">Area: </span>
+        <span class="data"> 27,750 sq km</span>
+    </div>
+    <div class="text">
+        <span class="label">Population: </span>
+        <span class="data"> 11, 470, 261</span>
+    </div>
+    <div class="text">
+        <span class="label">Capital: </span>
+        <span class="data"> Port-au-Prince</span>
+    </div>
+    <div class="text">
+        <span class="label">Languages: </span>
+        <span class="data"> Haitian Creole, French</span>
+    </div>
+    <div class="text">
+        <span class="label">Time Zone: </span>
+        <span class="data"> UTC-5 (EST)</span>
+    </div>
+    <div class="text">
+        <span class="label">Calling Code: </span>
+        <span class="data"> +509</span>
+    </div>
+    <div class="text">
+        <span class="label">Internet TLD: </span>
+        <span class="data"> .ht</span>
+    </div>
+    </div>
+
+    
+    <div class="weather-container">
+    <h2 id="weather-heading" >Weather</h2>
+    <figure>
+        <img class="weather-icon" src="images/weather-icon.svg" width="50px" alt="A weather icon">
+    </figure>
+    <div class="text">
+        <span class="label">Temperature: </span>
+        <span class="data">31 °C</span>
+    </div>
+    <div class="text">
+        <span class="label">Condition: </span>
+        <span class="data"> Mostly cloudy</span>
+    </div>
+    <div class="text">
+        <span class="label">Wind: </span>
+        <span class="data">8 km/h</span>
+    </div>
+    <div class="text">
+        <span class="label">Wind Chill: </span>
+        <span class="data" id="wind-chill"></span>
+    </div>
+    </div>
+   
+   
 </body>
+<footer>
+    <p><span id="copyright"></span><span id="currentYear"></span>  ☆ Nelson Georges ☆ Haiti</p>
+    <p id="lastModified"></p>
+   </footer>
 </html>

@@ -29,7 +29,7 @@ h1{
 
 
 .hero img {
-    border-top: 5px solid var(--second-background-color);
+    border-top: 5px solid red;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
@@ -101,7 +101,7 @@ body{
 }
 
 .hero img {
-    border-top: 25px solid --second-background-color;
+    border-top: 25px solid red;
     width: 1000px;
     height: auto;
     max-width: 1000px;

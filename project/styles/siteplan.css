@@ -1,0 +1,165 @@
+:root{
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #e74c3c; /* Red */
+    --primary-text-color: #FFF;
+}
+
+
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  
+    font-weight: 100;
+    font-style: normal;
+    
+}
+
+h1, h2, nav a{
+    letter-spacing: 1.5px;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+#menu-button {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
+}
+.open a {
+	display: block;
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+  
+}
+h4{
+    font-family: "Cinzel", serif;
+    font-size: smaller;
+    text-align: center;
+    padding: 10px;
+}
+#menu-button::before {
+	content: "☰";
+    color: var(--primary-text-color);
+}
+
+#menu-button .open::before {
+	content: "X";
+    color: var(--primary-text-color);
+
+}
+.navigation{
+    display: none;
+}
+.navigation.open{
+    display: block;
+}
+header{
+    display: grid;
+    grid-gap: 1rem;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #333;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+header, main {
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+nav ul{
+    list-style-type: none;
+    
+    
+}
+nav a{
+    display: block;
+    color: var(--primary-text-color);
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover{
+    
+    background-color:#000;
+    color:#F2E5BF
+  
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 20px;
+}
+.containers{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.containers p{
+    margin-top: 5px;
+    color: #666;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+.italic-text{
+    font-style: italic;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+figure{
+    margin: 0;
+}
+.color-schema-img{
+    max-width: 100%;
+    height: auto;
+}
+.homepage-wireframe-large, .homepage-wireframe-small{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+footer{
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 2px;
+    width: 100%;
+   
+}
+
+
+#lastModified{
+    color: black;
+    font-size: small ;
+}

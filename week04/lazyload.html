@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A lazyloading Website Example</title>
+    <meta name="author" content="Nelson Georges">
+    <meta name="description" content="An example of a web page showing how lazyloading works">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <link rel="script" href="scripts/lazyload.js" defer> 
+    <link rel="script" href="../scripts/getdates.js" defer>
+</head>
+<body>
+    <header>
+        <h1> A lazyloading Web Page </h1>
+
+    </header>
+
+    <main>
+        <picture>
+            <img src="images/beach-haiti.jpg" alt="A beach in Haiti" loading="lazy" width="400" height="600">
+
+        </picture>
+        
+        <picture>
+            <img src="images/coconut-trees.jpg" alt="Some coconut trees in Haiti" loading="lazy" width="400" height="600">
+
+        </picture>
+        <picture>
+            <img src="images/haiti-beach.jpg" alt="A beach in Haiti" loading="lazy" width="400" height="600">
+
+        </picture>
+        <picture>
+            <img src="images/haiti-nature.jpg" alt="The nature in Haiti" loading="lazy" width="400" height="600">
+
+        </picture>
+        <picture>
+            <img src="images/haiti-shore.jpg" alt="A seashore in Haitit" loading="lazy" width="400" height="600">
+
+        </picture>
+        <picture>
+            <img src="images/tree.jpg" alt=" A special tree in Haiti" loading="lazy" width="400" height="600">
+        </picture>
+
+        
+        
+        
+        
+        
+        
+
+    </main>
+
+    <footer>
+        <p><span id="copyright"></span><span id="currentYear"></span>  ☆ Nelson Georges ☆ Haiti</p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+</html>

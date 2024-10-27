@@ -1,0 +1,155 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+h1{
+    letter-spacing: 3px;
+}
+#menu-button {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
+}
+.open a {
+	display: block;
+}
+
+h2{
+    text-align: center;
+    padding: 30px; 
+}
+#menu-button::before {
+	content: "☰";
+    color: white;
+}
+
+#menu-button .open::before {
+	content: "X";
+    color: white;
+
+}
+.navigation{
+    display: none;
+}
+.navigation.open{
+    display: block;
+}
+header{
+    display: grid;
+    grid-gap: 1rem;
+    background-color:  #03346E;
+    color: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #333;
+    
+}
+header, main {
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+nav ul{
+    list-style-type: none;
+    
+    
+}
+nav a{
+    display: block;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover{
+    
+    background-color:#000;
+    color:#F2E5BF
+  
+}
+
+
+
+
+#temple-container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 20px;
+    padding: 20px;
+    
+}
+.bold-text{
+    font-weight:bold;
+    color: navy;
+    font-size:x-small;
+}
+.temple-card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 16px;
+    background-color: #fff;
+    
+}
+.temple-card img{
+    display: block;
+    width: 500px;
+    height: 225px;
+    margin: 10px auto;
+}
+.temple-card h2{
+    margin: 0;
+    font-size: 1.25em;
+    color: #333;
+}
+.temple-card p{
+    margin-top: 5px;
+    color: #666;
+    text-align: center;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #03346E;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 2px;
+    
+}
+#lastModified{
+    color: yellow;
+    font-size: smaller ;
+}

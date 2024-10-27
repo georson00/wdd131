@@ -56,6 +56,7 @@ header{
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 30px #333;
     
+    
 }
 header, main {
     margin: 0 auto;
@@ -93,8 +94,8 @@ nav a:hover{
 #temple-container{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: 16px;
+    padding: 10px;
     
 }
 .bold-text{
@@ -113,13 +114,12 @@ nav a:hover{
 }
 .temple-card img{
     display: block;
-    width: 500px;
+    width: 400px;
     height: 225px;
     margin: 10px auto;
 }
 .temple-card h2{
-    margin: 0;
-    font-size: 1.25em;
+    margin-bottom: -15px;
     color: #333;
 }
 .temple-card p{
@@ -133,20 +133,13 @@ nav a:hover{
 
 
 
-
-
-
-
-
-
-
-
 footer{
     background: #03346E;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
     letter-spacing: 2px;
+    
     
 }
 #lastModified{

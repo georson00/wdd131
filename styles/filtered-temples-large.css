@@ -61,6 +61,10 @@
         height: 225px;
         margin: 10px auto;
     }
+    .temple-card h2{
+        margin-bottom: -15px;
+
+    }
     #menu-button{
         display: none;
     }
